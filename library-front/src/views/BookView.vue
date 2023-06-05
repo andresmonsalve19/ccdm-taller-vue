@@ -4,7 +4,6 @@
     <div class="grid sm:grid-cols-12 grid-cols-1 md:grid-cols-4 lg:grid-cols-4 gap-4">
       <AppCard v-for="book in libraryStore.books" :book="book"/>
     </div>
-
   </div>
 </template>
 
